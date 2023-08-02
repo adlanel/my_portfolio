@@ -1,0 +1,83 @@
+
+.jumbotron {
+    padding-top: 9rem;
+    background-color: #9F63C4;
+}
+.rounded-circle.img-thumbnail {
+    background-color: #ffffff;
+
+}
+.row.text-center {
+    padding-top: 2rem;
+}
+#education {
+    background-color: #9F63C4;
+}
+
+.cropped-image {
+  height: 200px; /* Set your desired height here */
+  object-fit: cover;
+}
+
+.educations {
+    color: #ffffff;
+    font-size: xx-large;
+}
+.skill{
+	background-color: #151f20;
+}
+
+.icon-container {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#MyProjects {
+    background-color: #9F63C4;
+}
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #461E52;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #461E52;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+#mycontact {
+    background-color: #9F63C4;
+}
+footer {
+    color: #461E52;
+
+}
+section{
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+.alert {
+    background-color: #674AB3;
+    color: #e8caee;
+    border-color: #674AB3;
+}
